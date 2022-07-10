@@ -3,12 +3,10 @@
 ```python
 # Keep only alphabit and num
 normalized_str = ''.join([c.lower() if c.isalnum() else ' ' for c in paragraph])
-# Counter
-counter = Counter(word.lower() for word in paragraph.split()) # this is word
-for ss in Counter(s).values(): # this is char
 # Get Max with directory
-max(words.items(), key=operator.itemgetter(1))[0]
-
+max(charcounter.items(), key=operator.itemgetter(1))[0]
+# string get first n charator
+sample_str[ 0 : N ]
 ```
 ## int
 ```python
@@ -27,4 +25,16 @@ stack.apend(val)
 boxTypes.sort(key=lambda box: box[1], reverse=True)
 ```
 
-
+## counter
+```python
+# count words
+counter = Counter(word.lower() for word in paragraph.split()) # this is word
+# go through each value
+for ss in Counter(s).values(): # this is char
+#init with empty
+charcounter = Counter()
+charcounter = Counter(myString)
+charcounter[s[endi]] += 1
+# delete one of the counter
+if charcounter[s[endi]] == 1: del scounter[s[endi]]
+```
