@@ -38,3 +38,9 @@ charcounter[s[endi]] += 1
 # delete one of the counter
 if charcounter[s[endi]] == 1: del scounter[s[endi]]
 ```
+
+## math
+```python
+math.pow(x, 2)
+(left + right)>>1
+```

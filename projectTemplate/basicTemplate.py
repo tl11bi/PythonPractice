@@ -25,6 +25,7 @@ cached_data_path = os.path.join(BASE_DIR, "service.cache")
 parser = argparse.ArgumentParser()
 parser.add_argument("-u", "--username", help="Your username, overrides .env file.", required=False)
 parser.add_argument("-p", "--password", help="Your password, overrides .env file.", required=False)
+parser.add_argument('-t, --testing', help="testing only", action='store_true', required=False)
 args = parser.parse_args()
 
 
